@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .resume-section {
+    margin-bottom: 30px;
+  }
+  
+  .resume-section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .handle-container {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .handle {
+    width: 30px;
+    height: 5px;
+    background-color: #ccc;
+    border-radius: 2px;
+  }
+  
+  .save-button,
+  .next-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
