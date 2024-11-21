@@ -67,3 +67,5 @@
         <li>Support for multiple languages.</li>
         <li>Advanced template customization with drag-and-drop features.</li>
     </ul>
+
+<h2>Developed by: Yash Anand</h2>
